@@ -30,8 +30,8 @@ namespace MMT.Shop.DataSql
         public async Task<List<Product>> GetProductsByCategoryId(int categoryId)
         {
             this.logger.LogDebug($"Getting the products list for category {categoryId}");
-            var parameter = new SqlParameter("categoryId", categoryId);
-            var products = await this.dbContext.Products.FromSqlRaw("GetProducts @categoryId", parameter).ToListAsync();
+            var parameter = new SqlParameter("@categoryId", categoryId);
+            var products = await this.dbContext.Products.FromSqlRaw("GetProductByCategory @categoryId", parameter).ToListAsync();
             return products;
         }
     }

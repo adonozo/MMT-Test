@@ -37,11 +37,11 @@ namespace MMT.Shop.Api.Controllers
 
         [HttpGet]
         [Route("{id}/products")]
-        public async Task<IActionResult> GetProducts([FromBody] int id)
+        public async Task<IActionResult> GetProducts([FromRoute] int id)
         {
             try
             {
-                var result = this.categoryService.GetProductsByCategoryId(id);
+                var result = await this.categoryService.GetProductsByCategoryId(id);
                 return this.Ok(result);
             }
             catch (Exception exception)

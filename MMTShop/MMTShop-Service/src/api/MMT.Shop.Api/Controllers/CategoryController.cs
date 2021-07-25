@@ -39,7 +39,16 @@ namespace MMT.Shop.Api.Controllers
         [Route("{id}/products")]
         public async Task<IActionResult> GetProducts([FromBody] int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var result = this.categoryService.GetProductsByCategoryId(id);
+                return this.Ok(result);
+            }
+            catch (Exception exception)
+            {
+                this.logger.LogError(exception, $"Could not get the product list for category {id}");
+                return this.StatusCode(StatusCodes.Status500InternalServerError);
+            }
         }
     }
 }

@@ -27,7 +27,9 @@ namespace MMT.Shop.ServiceImplementation
 
         public async Task<List<Product>> GetProductsByCategoryId(int categoryId)
         {
-            throw new System.NotImplementedException();
+            var result = await this.categoryData.GetProductsByCategoryId(categoryId);
+            this.logger.LogDebug($"Found {result.Count} Products");
+            return result;
         }
     }
 }

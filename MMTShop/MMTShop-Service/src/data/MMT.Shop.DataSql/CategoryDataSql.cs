@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using MMT.Shop.DataInterfaces;
@@ -26,9 +27,12 @@ namespace MMT.Shop.DataSql
             return categories.Select(category => category.Name).ToList();
         }
 
-        public Task<List<Product>> GetProductsByCategoryId(int any)
+        public async Task<List<Product>> GetProductsByCategoryId(int categoryId)
         {
-            throw new System.NotImplementedException();
+            this.logger.LogDebug($"Getting the products list for category {categoryId}");
+            var parameter = new SqlParameter("categoryId", categoryId);
+            var products = await this.dbContext.Products.FromSqlRaw("GetProducts @categoryId", parameter).ToListAsync();
+            return products;
         }
     }
 }

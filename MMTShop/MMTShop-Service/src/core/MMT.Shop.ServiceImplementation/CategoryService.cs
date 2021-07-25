@@ -18,7 +18,7 @@ namespace MMT.Shop.ServiceImplementation
             this.categoryData = categoryData;
         }
 
-        public async Task<List<Category>> GetCategories()
+        public async Task<List<string>> GetCategories()
         {
             var result =  await this.categoryData.GetCategories();
             this.logger.LogDebug($"Found {result.Count} categories");

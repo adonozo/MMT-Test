@@ -6,6 +6,6 @@ namespace MMT.Shop.DataInterfaces
 {
     public interface ICategoryData
     {
-        public Task<List<Category>> GetCategories();
+        public Task<List<string>> GetCategories();
     }
 }

@@ -6,6 +6,6 @@ namespace MMT.Shop.ServiceInterfaces
 {
     public interface ICategoryService
     {
-        public Task<List<Category>> GetCategories();
+        public Task<List<string>> GetCategories();
     }
 }

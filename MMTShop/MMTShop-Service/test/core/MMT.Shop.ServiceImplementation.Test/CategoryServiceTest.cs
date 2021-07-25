@@ -12,12 +12,12 @@ namespace MMT.Shop.ServiceImplementation.Test
     public class UnitTest1
     {
         [Fact]
-        public async Task GetCategories_OnValidInput_ShouldReturnCategoryList()
+        public async Task GetCategories_OnValidInput_ShouldReturnCategoryNames()
         {
             // Arrange
             var logger = Substitute.For<ILogger<CategoryService>>();
             var categoryData = Substitute.For<ICategoryData>();
-            categoryData.GetCategories().Returns(Task.FromResult(new List<Category> {new Category()}));
+            categoryData.GetCategories().Returns(Task.FromResult(new List<string> {string.Empty}));
             var service = new CategoryService(logger, categoryData);
 
             // Act

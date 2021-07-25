@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MMTShop-Database", "MMTShop-Database\MMTShop-Database.sqlproj", "{A4EE23AB-44C4-488D-9828-EA950873E94F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4EE23AB-44C4-488D-9828-EA950873E94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EE23AB-44C4-488D-9828-EA950873E94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EE23AB-44C4-488D-9828-EA950873E94F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A4EE23AB-44C4-488D-9828-EA950873E94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EE23AB-44C4-488D-9828-EA950873E94F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4EE23AB-44C4-488D-9828-EA950873E94F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BCE8198-AE18-4B1B-B47F-35D5B6F4C758}
+	EndGlobalSection
+EndGlobal

@@ -15,23 +15,23 @@ GO
 
 IF NOT EXISTS (SELECT * FROM [dbo].[categories] WHERE [Id] = 1)
     INSERT INTO [dbo].[categories] ([Id],[Name],[SkuProductFilter]) 
-    VALUES (1, 'Home', '^1%')
+    VALUES (1, 'Home', '1%')
 
 IF NOT EXISTS (SELECT * FROM [dbo].[categories] WHERE [Id] = 2)
     INSERT INTO [dbo].[categories] ([Id],[Name],[SkuProductFilter])
-    VALUES (2, 'Garden', '^2%')
+    VALUES (2, 'Garden', '2%')
 
 IF NOT EXISTS (SELECT * FROM [dbo].[categories] WHERE [Id] = 3)
     INSERT INTO [dbo].[categories] ([Id],[Name],[SkuProductFilter])
-    VALUES (3, 'Electronics', '^3%')
+    VALUES (3, 'Electronics', '3%')
 
 IF NOT EXISTS (SELECT * FROM [dbo].[categories] WHERE [Id] = 4)
     INSERT INTO [dbo].[categories] ([Id],[Name],[SkuProductFilter])
-    VALUES (4, 'Fitness', '^4%')
+    VALUES (4, 'Fitness', '4%')
 
 IF NOT EXISTS (SELECT * FROM [dbo].[categories] WHERE [Id] = 5)
     INSERT INTO [dbo].[categories] ([Id],[Name],[SkuProductFilter])
-    VALUES (5, 'Toys', '^5%')
+    VALUES (5, 'Toys', '5%')
 
 SET IDENTITY_INSERT [dbo].[categories] OFF;
 GO

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="96d7c309-365a-40ec-9ed1-6c1e7c5cb55f" ChangeDateTime="07/25/2021 08:54:24">
+    <Property Name="ElementName" Value="[dbo].[categories].[ProductFilter]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[categories]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SkuProductFilter" />
+  </Operation>
+</Operations>

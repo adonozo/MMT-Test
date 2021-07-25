@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj",
-      "projectName": "MMT.Shop.ServiceInterfaces",
-      "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj",
+      "projectUniqueName": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj",
+      "projectName": "MMT.Shop.ServiceImplementation",
+      "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj",
       "packagesPath": "/Users/alvaro/.nuget/packages/",
-      "outputPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/MMT.Shop.ServiceInterfaces/obj/",
+      "outputPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alvaro/.nuget/NuGet/NuGet.Config"

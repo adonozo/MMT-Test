@@ -7,5 +7,7 @@ namespace MMT.Shop.DataInterfaces
     public interface ICategoryData
     {
         public Task<List<string>> GetCategories();
+        
+        public Task<List<Product>> GetProductsByCategoryId(int any);
     }
 }

@@ -24,5 +24,10 @@ namespace MMT.Shop.ServiceImplementation
             this.logger.LogDebug($"Found {result.Count} categories");
             return result;
         }
+
+        public async Task<List<Product>> GetProductsByCategoryId(int categoryId)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

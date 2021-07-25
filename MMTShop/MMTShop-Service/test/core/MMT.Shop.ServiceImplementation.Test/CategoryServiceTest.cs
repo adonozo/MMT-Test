@@ -26,5 +26,21 @@ namespace MMT.Shop.ServiceImplementation.Test
             // Assert
             result.Should().NotBeEmpty();
         }
+        
+        [Fact]
+        public async Task GetProductsByCategoryId_OnValidInput_ShouldReturnProductsList()
+        {
+            // Arrange
+            var logger = Substitute.For<ILogger<CategoryService>>();
+            var categoryData = Substitute.For<ICategoryData>();
+            categoryData.GetProductsByCategoryId(Arg.Any<int>()).Returns(Task.FromResult(new List<Product> {new Product()}));
+            var service = new CategoryService(logger, categoryData);
+
+            // Act
+            var result = await service.GetProductsByCategoryId(1);
+
+            // Assert
+            result.Should().NotBeEmpty();
+        }
     }
 }

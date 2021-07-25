@@ -56,7 +56,7 @@ namespace MMT.Shop.Api.Test
             // Arrange
             var logger = Substitute.For<ILogger<CategoryController>>();
             var service = Substitute.For<ICategoryService>();
-            service.GetProducts().Returns(Task.FromResult(new List<Product>()));
+            service.GetProductsByCategoryId(Arg.Any<int>()).Returns(Task.FromResult(new List<Product>()));
             var controller = new CategoryController(logger, service);
             
             // Act

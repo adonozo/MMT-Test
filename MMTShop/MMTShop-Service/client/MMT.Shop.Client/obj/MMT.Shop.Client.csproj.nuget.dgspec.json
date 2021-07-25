@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\MMT.Shop.Models.csproj": {}
+    "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\client\\MMT.Shop.Client\\MMT.Shop.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\MMT.Shop.Models.csproj": {
+    "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\client\\MMT.Shop.Client\\MMT.Shop.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\MMT.Shop.Models.csproj",
-        "projectName": "MMT.Shop.Models",
-        "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\MMT.Shop.Models.csproj",
+        "projectUniqueName": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\client\\MMT.Shop.Client\\MMT.Shop.Client.csproj",
+        "projectName": "MMT.Shop.Client",
+        "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\client\\MMT.Shop.Client\\MMT.Shop.Client.csproj",
         "packagesPath": "C:\\Users\\adonozo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\obj\\",
+        "outputPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\client\\MMT.Shop.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adonozo\\AppData\\Roaming\\NuGet\\NuGet.Config",

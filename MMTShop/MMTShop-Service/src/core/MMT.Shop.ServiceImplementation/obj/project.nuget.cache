@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "V4VoUX08ubw4LsDuDDurEuFeB1yQ2lYHcT0YARM9ibpuLa8qIMnQCBfvAqz8TT3rXLXpYLwc4xehET2dJevtxg==",
+  "dgSpecHash": "zVbP/k6JOYQ4xzyDlbyp1bhYRAShtbzrDSkvhx+WLVvvrhXvEzRoT72oOoIVAJ7f4t6A248nlOL9YDBtouDKsQ==",
   "success": true,
-  "projectFilePath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj",
+  "projectFilePath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceImplementation\\MMT.Shop.ServiceImplementation.csproj",
   "expectedPackageFiles": [
-    "/Users/alvaro/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
-    "/Users/alvaro/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "/Users/alvaro/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
-    "/Users/alvaro/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
-    "/Users/alvaro/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "/Users/alvaro/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    "C:\\Users\\adonozo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\adonozo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\adonozo\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\adonozo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\adonozo\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\adonozo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

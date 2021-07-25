@@ -21,7 +21,7 @@ namespace MMT.Shop.DataSql
         public async Task<List<Category>> GetCategories()
         {
             this.logger.LogDebug("Getting all the categories from the database");
-            return await this.dbContext.Categories.ToListAsync();
+            return await this.dbContext.Categories.FromSqlRaw("GetCategories").ToListAsync();
         }
     }
 }

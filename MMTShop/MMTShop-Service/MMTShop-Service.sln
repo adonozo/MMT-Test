@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Shop.ServiceInterfaces"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Shop.ServiceImplementation", "src\core\MMT.Shop.ServiceImplementation\MMT.Shop.ServiceImplementation.csproj", "{B570B0B3-538F-4007-8293-5A8440D59344}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Shop.DataInterfaces", "src\data\MMT.Shop.DataInterfaces\MMT.Shop.DataInterfaces.csproj", "{86796EC8-05C5-4D94-8991-83E240304E24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B570B0B3-538F-4007-8293-5A8440D59344}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B570B0B3-538F-4007-8293-5A8440D59344}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B570B0B3-538F-4007-8293-5A8440D59344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86796EC8-05C5-4D94-8991-83E240304E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86796EC8-05C5-4D94-8991-83E240304E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86796EC8-05C5-4D94-8991-83E240304E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86796EC8-05C5-4D94-8991-83E240304E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +50,6 @@ Global
 		{6AD4B677-3F0F-4E30-86EA-F35C7332C129} = {28DF5926-87AE-4E94-84DF-445CC958BB19}
 		{387A6BC8-BF7B-4C87-9D66-C87F2AC77E7A} = {E241B169-CD56-403C-AE02-0C3AB36C8F2B}
 		{B570B0B3-538F-4007-8293-5A8440D59344} = {E241B169-CD56-403C-AE02-0C3AB36C8F2B}
+		{86796EC8-05C5-4D94-8991-83E240304E24} = {A47804AE-31D8-4568-9B3F-BF7EDECA7ABA}
 	EndGlobalSection
 EndGlobal

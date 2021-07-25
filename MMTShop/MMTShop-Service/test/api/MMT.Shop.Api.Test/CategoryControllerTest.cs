@@ -22,7 +22,7 @@ namespace MMT.Shop.Api.Test
             // Arrange
             var logger = Substitute.For<ILogger<CategoryController>>();
             var service = Substitute.For<ICategoryService>();
-            service.GetCategories().Returns(Task.FromResult(new List<Category>()));
+            service.GetCategories().Returns(Task.FromResult(new List<string>()));
             var controller = new CategoryController(logger, service);
             
             // Act

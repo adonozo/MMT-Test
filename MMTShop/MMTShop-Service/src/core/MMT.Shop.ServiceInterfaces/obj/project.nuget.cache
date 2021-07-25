@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5j7ZYaqkEdVUQf3tvqw+DjhaRTFzMh/jPdQFDIfyGPJR6Kg9fXHL2HtVhwtvHBPxWL6TL1+F8vLzYIEonOWhtw==",
+  "dgSpecHash": "5/vpDfyoNLkrUg57EqCOKpLtxXKI8A5pySKG+nfB00uH+KWW0vk2Yf3fOJmyT69FmzLiIFTat+u/J/EaGMDTmQ==",
   "success": true,
-  "projectFilePath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj",
+  "projectFilePath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceInterfaces\\MMT.Shop.ServiceInterfaces.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

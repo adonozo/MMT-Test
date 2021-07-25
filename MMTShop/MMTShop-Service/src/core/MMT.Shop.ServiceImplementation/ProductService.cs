@@ -9,14 +9,20 @@ namespace MMT.Shop.ServiceImplementation
 {
     public class ProductService : IProductService
     {
+        private readonly ILogger<ProductService> logger;
+        private readonly IProductData productData;
+        
         public ProductService(ILogger<ProductService> logger, IProductData productData)
         {
-            throw new System.NotImplementedException();
+            this.logger = logger;
+            this.productData = productData;
         }
 
-        public Task<List<Product>> GetFeaturedProducts()
+        public async Task<List<Product>> GetFeaturedProducts()
         {
-            throw new System.NotImplementedException();
+            var result = await this.productData.GetFeaturedProducts();
+            this.logger.LogDebug($"Found {result.Count} featured products.");
+            return result;
         }
     }
 }

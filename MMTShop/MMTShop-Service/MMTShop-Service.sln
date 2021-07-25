@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMT.Shop.Models", "src\core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Shop.Api.Test", "test\api\MMT.Shop.Api.Test\MMT.Shop.Api.Test.csproj", "{95FBECA3-9E2D-4674-BB63-3FC26B8FA584}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Shop.ServiceImplemtation.Test", "test\core\MMT.Shop.ServiceImplemtation.Test\MMT.Shop.ServiceImplemtation.Test.csproj", "{0936D459-AD17-4F4A-A688-718F17ED120B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{95FBECA3-9E2D-4674-BB63-3FC26B8FA584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95FBECA3-9E2D-4674-BB63-3FC26B8FA584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95FBECA3-9E2D-4674-BB63-3FC26B8FA584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0936D459-AD17-4F4A-A688-718F17ED120B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0936D459-AD17-4F4A-A688-718F17ED120B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0936D459-AD17-4F4A-A688-718F17ED120B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0936D459-AD17-4F4A-A688-718F17ED120B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{90384D9D-F188-40EF-9CFA-B7943BC85D50} = {A6E2B9F4-08DB-49E5-A75E-2D961E3BC666}
 		{F27F7121-81B0-4026-A3C2-74EECFD20DF9} = {E241B169-CD56-403C-AE02-0C3AB36C8F2B}
 		{95FBECA3-9E2D-4674-BB63-3FC26B8FA584} = {B07F9F6A-C8D4-449E-A18C-A7C29897755A}
+		{0936D459-AD17-4F4A-A688-718F17ED120B} = {F711AC59-15D2-40C7-8970-90FDA0D94BB3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {524C0F5B-AB39-45F7-9648-45B4C8ABA731}

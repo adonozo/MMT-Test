@@ -14,7 +14,7 @@ namespace MMT.Shop.Api
 {
     public class Startup
     {
-        private const string DatabaseConnectionString = "Data Source=ADONOZO;Initial Catalog=MMTShop;User Id=developer;Password=developer;";
+        private const string DatabaseConnectionString = "Data Source=ALVARODONOZ5033;Initial Catalog=MMTShop;User Id=sa;Password=developer;";
         
         public Startup(IConfiguration configuration)
         {

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using MMT.Shop.DataInterfaces;
@@ -9,14 +8,20 @@ namespace MMT.Shop.ServiceImplementation
 {
     public class CategoryService
     {
+        private readonly ILogger<CategoryService> logger;
+        private readonly ICategoryData categoryData;
+
         public CategoryService(ILogger<CategoryService> logger, ICategoryData categoryData)
         {
-            throw new NotImplementedException();
+            this.logger = logger;
+            this.categoryData = categoryData;
         }
 
-        public Task<List<Category>> GetCategories()
+        public async Task<List<Category>> GetCategories()
         {
-            throw new NotImplementedException();
+            var result =  await this.categoryData.GetCategories();
+            this.logger.LogDebug($"Found {result.Count} categories");
+            return result;
         }
     }
 }

@@ -29,6 +29,7 @@ namespace MMT.Shop.Api
             services.AddDbContext<DataContext>(options => options.UseSqlServer(DatabaseConnectionString));
 
             services.AddScoped<ICategoryData, CategoryDataSql>();
+            services.AddScoped<IProductData, ProductDataSql>();
             services.AddScoped<ICategoryService, CategoryService>();
 
             services.AddControllers();

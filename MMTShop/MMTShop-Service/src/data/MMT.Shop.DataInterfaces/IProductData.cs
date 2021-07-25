@@ -4,11 +4,8 @@ using MMT.Shop.Models;
 
 namespace MMT.Shop.DataInterfaces
 {
-    public class IProductData
+    public interface IProductData
     {
-        public Task<List<Product>> GetFeaturedProducts()
-        {
-            throw new System.NotImplementedException();
-        }
+        public Task<List<Product>> GetFeaturedProducts();
     }
 }

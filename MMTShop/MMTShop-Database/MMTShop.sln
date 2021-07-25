@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MMTShop-Database", "MMTShop-Database\MMTShop-Database.sqlproj", "{A4EE23AB-44C4-488D-9828-EA950873E94F}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MMTShop-Database", "database\MMTShop-Database.sqlproj", "{A4EE23AB-44C4-488D-9828-EA950873E94F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

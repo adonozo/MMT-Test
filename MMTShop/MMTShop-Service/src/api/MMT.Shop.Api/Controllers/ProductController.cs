@@ -20,6 +20,10 @@ namespace MMT.Shop.Api.Controllers
             this.service = service;
         }
 
+        /// <summary>
+        /// Gets the list of featured products.
+        /// </summary>
+        /// <returns>A HTTP OK status result with the products list if the result was successful. A Internal Server Error status otherwise.</returns>
         [HttpGet]
         [Route("featured")]
         public async Task<IActionResult> GetFeaturedProducts()

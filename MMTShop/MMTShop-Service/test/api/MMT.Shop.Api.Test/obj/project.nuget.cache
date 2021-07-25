@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Wl6UP1/x+Rk2lx5hHSEYLhhZGqmDdhc5c4AujJ0yCtTQksHv1sBb9jV+081PLyo+KxaBBlYp168YywgJtqvoVQ==",
+  "dgSpecHash": "uld0gE9c9RuWm9jLUuMAy5e9o9mK6xEQZYC/SAbxb8EwX2B70sTWpjWb2T2CnQeTF9yUSKaDFQYtafaMh3sdng==",
   "success": true,
   "projectFilePath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/test/api/MMT.Shop.Api.Test/MMT.Shop.Api.Test.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,12 @@
     "/Users/alvaro/.nuget/packages/microsoft.codecoverage/16.9.4/microsoft.codecoverage.16.9.4.nupkg.sha512",
     "/Users/alvaro/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/alvaro/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/Users/alvaro/.nuget/packages/microsoft.net.test.sdk/16.9.4/microsoft.net.test.sdk.16.9.4.nupkg.sha512",
     "/Users/alvaro/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/alvaro/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",

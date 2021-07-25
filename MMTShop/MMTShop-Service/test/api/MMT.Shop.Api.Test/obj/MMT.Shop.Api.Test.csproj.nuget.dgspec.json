@@ -154,7 +154,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataInterfaces/MMT.Shop.DataInterfaces.csproj": {
+                "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataInterfaces/MMT.Shop.DataInterfaces.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -166,6 +170,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -262,7 +272,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.Models/MMT.Shop.Models.csproj": {
+                "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.Models/MMT.Shop.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -326,6 +340,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

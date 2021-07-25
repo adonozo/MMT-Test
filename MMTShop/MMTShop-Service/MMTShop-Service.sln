@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMT.Shop.Models", "src\core
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Shop.Api.Test", "test\api\MMT.Shop.Api.Test\MMT.Shop.Api.Test.csproj", "{95FBECA3-9E2D-4674-BB63-3FC26B8FA584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Shop.ServiceImplemtation.Test", "test\core\MMT.Shop.ServiceImplemtation.Test\MMT.Shop.ServiceImplemtation.Test.csproj", "{0936D459-AD17-4F4A-A688-718F17ED120B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Shop.ServiceImplementation.Test", "test\core\MMT.Shop.ServiceImplementation.Test\MMT.Shop.ServiceImplementation.Test.csproj", "{0936D459-AD17-4F4A-A688-718F17ED120B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Shop.DataSql.Test", "test\data\MMT.Shop.DataSql.Test\MMT.Shop.DataSql.Test.csproj", "{6FE77CA5-6C31-4F2F-907C-B46A571AB958}"
 EndProject

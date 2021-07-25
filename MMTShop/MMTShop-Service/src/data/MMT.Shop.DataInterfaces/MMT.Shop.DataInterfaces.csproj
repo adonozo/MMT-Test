@@ -4,4 +4,8 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\core\MMT.Shop.Models\MMT.Shop.Models.csproj" />
+    </ItemGroup>
+
 </Project>

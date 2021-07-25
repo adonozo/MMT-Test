@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\src\core\MMT.Shop.ServiceImplementation\MMT.Shop.ServiceImplementation.csproj" />
+    <ProjectReference Include="..\..\..\src\data\MMT.Shop.DataInterfaces\MMT.Shop.DataInterfaces.csproj" />
   </ItemGroup>
 
 </Project>

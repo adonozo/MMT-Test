@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "I85t47clptzb0GAZuZCe8N6z2T5bJP5SV6OblAZ8/33wJxb8ouC1S6NoXdjlekT06V1CZDE3LhqDp1Jj3MhHaA==",
+  "dgSpecHash": "sh5d6B+NqFrpwj4OJ5GPQ3Xptfc8cK6i+jUvZvhp9PHmHL0NXOLomRYVq5j/yOTu/4j4orfBfcKxh5cKjuorGQ==",
   "success": true,
   "projectFilePath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.0/microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/alvaro/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

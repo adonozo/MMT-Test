@@ -20,7 +20,9 @@ namespace MMT.Shop.Api.Controllers
             this.service = service;
         }
 
-        public async Task<IActionResult> GetFeaturedProduct()
+        [HttpGet]
+        [Route("featured")]
+        public async Task<IActionResult> GetFeaturedProducts()
         {
             try
             {

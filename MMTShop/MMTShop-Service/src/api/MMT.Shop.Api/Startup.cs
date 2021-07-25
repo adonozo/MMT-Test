@@ -31,6 +31,7 @@ namespace MMT.Shop.Api
             services.AddScoped<ICategoryData, CategoryDataSql>();
             services.AddScoped<IProductData, ProductDataSql>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductService, ProductService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

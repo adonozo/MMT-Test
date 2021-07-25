@@ -1,47 +1,45 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\api\\MMT.Shop.Api\\MMT.Shop.Api.csproj": {}
+    "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/api/MMT.Shop.Api/MMT.Shop.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\api\\MMT.Shop.Api\\MMT.Shop.Api.csproj": {
+    "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/api/MMT.Shop.Api/MMT.Shop.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\api\\MMT.Shop.Api\\MMT.Shop.Api.csproj",
+        "projectUniqueName": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/api/MMT.Shop.Api/MMT.Shop.Api.csproj",
         "projectName": "MMT.Shop.Api",
-        "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\api\\MMT.Shop.Api\\MMT.Shop.Api.csproj",
-        "packagesPath": "C:\\Users\\adonozo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\api\\MMT.Shop.Api\\obj\\",
+        "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/api/MMT.Shop.Api/MMT.Shop.Api.csproj",
+        "packagesPath": "/Users/alvaro/.nuget/packages/",
+        "outputPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/api/MMT.Shop.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adonozo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alvaro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\MMT.Shop.Models.csproj": {
-                "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\MMT.Shop.Models.csproj"
+              "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.Models/MMT.Shop.Models.csproj": {
+                "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.Models/MMT.Shop.Models.csproj"
               },
-              "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceImplementation\\MMT.Shop.ServiceImplementation.csproj": {
-                "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceImplementation\\MMT.Shop.ServiceImplementation.csproj"
+              "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj": {
+                "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj"
               },
-              "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceInterfaces\\MMT.Shop.ServiceInterfaces.csproj": {
-                "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceInterfaces\\MMT.Shop.ServiceInterfaces.csproj"
+              "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj": {
+                "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj"
               },
-              "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataInterfaces\\MMT.Shop.DataInterfaces.csproj": {
-                "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataInterfaces\\MMT.Shop.DataInterfaces.csproj"
+              "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataInterfaces/MMT.Shop.DataInterfaces.csproj": {
+                "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataInterfaces/MMT.Shop.DataInterfaces.csproj"
               },
-              "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataSql\\MMT.Shop.DataSql.csproj": {
-                "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataSql\\MMT.Shop.DataSql.csproj"
+              "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataSql/MMT.Shop.DataSql.csproj": {
+                "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataSql/MMT.Shop.DataSql.csproj"
               }
             }
           }
@@ -79,28 +77,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\MMT.Shop.Models.csproj": {
+    "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.Models/MMT.Shop.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\MMT.Shop.Models.csproj",
+        "projectUniqueName": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.Models/MMT.Shop.Models.csproj",
         "projectName": "MMT.Shop.Models",
-        "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\MMT.Shop.Models.csproj",
-        "packagesPath": "C:\\Users\\adonozo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\obj\\",
+        "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.Models/MMT.Shop.Models.csproj",
+        "packagesPath": "/Users/alvaro/.nuget/packages/",
+        "outputPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adonozo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alvaro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -133,28 +129,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceImplementation\\MMT.Shop.ServiceImplementation.csproj": {
+    "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceImplementation\\MMT.Shop.ServiceImplementation.csproj",
+        "projectUniqueName": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj",
         "projectName": "MMT.Shop.ServiceImplementation",
-        "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceImplementation\\MMT.Shop.ServiceImplementation.csproj",
-        "packagesPath": "C:\\Users\\adonozo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceImplementation\\obj\\",
+        "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj",
+        "packagesPath": "/Users/alvaro/.nuget/packages/",
+        "outputPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adonozo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alvaro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -187,34 +181,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceInterfaces\\MMT.Shop.ServiceInterfaces.csproj": {
+    "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceInterfaces\\MMT.Shop.ServiceInterfaces.csproj",
+        "projectUniqueName": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj",
         "projectName": "MMT.Shop.ServiceInterfaces",
-        "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceInterfaces\\MMT.Shop.ServiceInterfaces.csproj",
-        "packagesPath": "C:\\Users\\adonozo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceInterfaces\\obj\\",
+        "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj",
+        "packagesPath": "/Users/alvaro/.nuget/packages/",
+        "outputPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceInterfaces/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adonozo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alvaro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.Models/MMT.Shop.Models.csproj": {
+                "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.Models/MMT.Shop.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -241,28 +237,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataInterfaces\\MMT.Shop.DataInterfaces.csproj": {
+    "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataInterfaces/MMT.Shop.DataInterfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataInterfaces\\MMT.Shop.DataInterfaces.csproj",
+        "projectUniqueName": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataInterfaces/MMT.Shop.DataInterfaces.csproj",
         "projectName": "MMT.Shop.DataInterfaces",
-        "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataInterfaces\\MMT.Shop.DataInterfaces.csproj",
-        "packagesPath": "C:\\Users\\adonozo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataInterfaces\\obj\\",
+        "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataInterfaces/MMT.Shop.DataInterfaces.csproj",
+        "packagesPath": "/Users/alvaro/.nuget/packages/",
+        "outputPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataInterfaces/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adonozo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alvaro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -295,28 +289,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataSql\\MMT.Shop.DataSql.csproj": {
+    "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataSql/MMT.Shop.DataSql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataSql\\MMT.Shop.DataSql.csproj",
+        "projectUniqueName": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataSql/MMT.Shop.DataSql.csproj",
         "projectName": "MMT.Shop.DataSql",
-        "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataSql\\MMT.Shop.DataSql.csproj",
-        "packagesPath": "C:\\Users\\adonozo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataSql\\obj\\",
+        "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataSql/MMT.Shop.DataSql.csproj",
+        "packagesPath": "/Users/alvaro/.nuget/packages/",
+        "outputPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataSql/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\adonozo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alvaro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -349,7 +341,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }

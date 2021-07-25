@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MMTShop_Service
+namespace MMT.Shop.Api
 {
     public class Startup
     {

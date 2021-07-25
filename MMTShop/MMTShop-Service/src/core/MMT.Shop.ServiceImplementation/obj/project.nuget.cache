@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ct/fm4LcZmvSBcP4zXFxHfkXYEYXeQmNRi4KvobB3z5Jlz5EZxYgTEDghAr18DgMwwqUdcZqx/Y1NU95u2OVqQ==",
+  "dgSpecHash": "I85t47clptzb0GAZuZCe8N6z2T5bJP5SV6OblAZ8/33wJxb8ouC1S6NoXdjlekT06V1CZDE3LhqDp1Jj3MhHaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceImplementation\\MMT.Shop.ServiceImplementation.csproj",
+  "projectFilePath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

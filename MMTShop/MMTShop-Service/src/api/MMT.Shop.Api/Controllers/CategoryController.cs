@@ -20,6 +20,10 @@ namespace MMT.Shop.Api.Controllers
             this.categoryService = service;
         }
 
+        /// <summary>
+        /// Gets the category names as a string array.
+        /// </summary>
+        /// <returns>A HTTP OK status result if the result was successful. A Internal Server Error status otherwise.</returns>
         [HttpGet]
         public async Task<IActionResult> GetCategories()
         {
@@ -35,6 +39,11 @@ namespace MMT.Shop.Api.Controllers
             }
         }
 
+        /// <summary>
+        /// Gets the list of products for a given category ID.
+        /// </summary>
+        /// <param name="id">The Category ID.</param>
+        /// <returns>A HTTP OK status result with the products list if the result was successful. A Internal Server Error status otherwise.</returns>
         [HttpGet]
         [Route("{id}/products")]
         public async Task<IActionResult> GetProducts([FromRoute] int id)

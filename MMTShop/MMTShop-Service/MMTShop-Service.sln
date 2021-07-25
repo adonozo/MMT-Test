@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMT.Shop.Api", "src\api\MMT.Shop.Api\MMT.Shop.Api.csproj", "{6AD4B677-3F0F-4E30-86EA-F35C7332C129}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{28DF5926-87AE-4E94-84DF-445CC958BB19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{E241B169-CD56-403C-AE02-0C3AB36C8F2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{A47804AE-31D8-4568-9B3F-BF7EDECA7ABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMT.Shop.ServiceInterfaces", "MMT.Shop.ServiceInterfaces\MMT.Shop.ServiceInterfaces.csproj", "{387A6BC8-BF7B-4C87-9D66-C87F2AC77E7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +23,19 @@ Global
 		{6AD4B677-3F0F-4E30-86EA-F35C7332C129}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AD4B677-3F0F-4E30-86EA-F35C7332C129}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AD4B677-3F0F-4E30-86EA-F35C7332C129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387A6BC8-BF7B-4C87-9D66-C87F2AC77E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387A6BC8-BF7B-4C87-9D66-C87F2AC77E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387A6BC8-BF7B-4C87-9D66-C87F2AC77E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387A6BC8-BF7B-4C87-9D66-C87F2AC77E7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {524C0F5B-AB39-45F7-9648-45B4C8ABA731}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AD4B677-3F0F-4E30-86EA-F35C7332C129} = {28DF5926-87AE-4E94-84DF-445CC958BB19}
+		{387A6BC8-BF7B-4C87-9D66-C87F2AC77E7A} = {E241B169-CD56-403C-AE02-0C3AB36C8F2B}
 	EndGlobalSection
 EndGlobal

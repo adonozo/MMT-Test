@@ -75,6 +75,56 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "MMT.Shop.DataInterfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MMT.Shop.DataInterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MMT.Shop.DataInterfaces.dll": {}
+        }
+      },
+      "MMT.Shop.DataSql/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MMT.Shop.DataSql.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MMT.Shop.DataSql.dll": {}
+        }
+      },
+      "MMT.Shop.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MMT.Shop.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MMT.Shop.Models.dll": {}
+        }
+      },
+      "MMT.Shop.ServiceImplementation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MMT.Shop.ServiceImplementation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MMT.Shop.ServiceImplementation.dll": {}
+        }
+      },
+      "MMT.Shop.ServiceInterfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MMT.Shop.ServiceInterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MMT.Shop.ServiceInterfaces.dll": {}
+        }
       }
     }
   },
@@ -185,10 +235,40 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "MMT.Shop.DataInterfaces/1.0.0": {
+      "type": "project",
+      "path": "../../data/MMT.Shop.DataInterfaces/MMT.Shop.DataInterfaces.csproj",
+      "msbuildProject": "../../data/MMT.Shop.DataInterfaces/MMT.Shop.DataInterfaces.csproj"
+    },
+    "MMT.Shop.DataSql/1.0.0": {
+      "type": "project",
+      "path": "../../data/MMT.Shop.DataSql/MMT.Shop.DataSql.csproj",
+      "msbuildProject": "../../data/MMT.Shop.DataSql/MMT.Shop.DataSql.csproj"
+    },
+    "MMT.Shop.Models/1.0.0": {
+      "type": "project",
+      "path": "../../core/MMT.Shop.Models/MMT.Shop.Models.csproj",
+      "msbuildProject": "../../core/MMT.Shop.Models/MMT.Shop.Models.csproj"
+    },
+    "MMT.Shop.ServiceImplementation/1.0.0": {
+      "type": "project",
+      "path": "../../core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj",
+      "msbuildProject": "../../core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj"
+    },
+    "MMT.Shop.ServiceInterfaces/1.0.0": {
+      "type": "project",
+      "path": "../../core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj",
+      "msbuildProject": "../../core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "MMT.Shop.DataInterfaces >= 1.0.0",
+      "MMT.Shop.DataSql >= 1.0.0",
+      "MMT.Shop.Models >= 1.0.0",
+      "MMT.Shop.ServiceImplementation >= 1.0.0",
+      "MMT.Shop.ServiceInterfaces >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -218,7 +298,23 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\MMT.Shop.Models.csproj": {
+              "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.Models\\MMT.Shop.Models.csproj"
+            },
+            "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceImplementation\\MMT.Shop.ServiceImplementation.csproj": {
+              "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceImplementation\\MMT.Shop.ServiceImplementation.csproj"
+            },
+            "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceInterfaces\\MMT.Shop.ServiceInterfaces.csproj": {
+              "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\core\\MMT.Shop.ServiceInterfaces\\MMT.Shop.ServiceInterfaces.csproj"
+            },
+            "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataInterfaces\\MMT.Shop.DataInterfaces.csproj": {
+              "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataInterfaces\\MMT.Shop.DataInterfaces.csproj"
+            },
+            "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataSql\\MMT.Shop.DataSql.csproj": {
+              "projectPath": "C:\\Users\\adonozo\\source\\repos\\MMT-Test\\MMTShop\\MMTShop-Service\\src\\data\\MMT.Shop.DataSql\\MMT.Shop.DataSql.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

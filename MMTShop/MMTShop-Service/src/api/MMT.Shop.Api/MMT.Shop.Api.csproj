@@ -13,4 +13,12 @@
     <Folder Include="Controllers" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\MMT.Shop.Models\MMT.Shop.Models.csproj" />
+    <ProjectReference Include="..\..\core\MMT.Shop.ServiceImplementation\MMT.Shop.ServiceImplementation.csproj" />
+    <ProjectReference Include="..\..\core\MMT.Shop.ServiceInterfaces\MMT.Shop.ServiceInterfaces.csproj" />
+    <ProjectReference Include="..\..\data\MMT.Shop.DataInterfaces\MMT.Shop.DataInterfaces.csproj" />
+    <ProjectReference Include="..\..\data\MMT.Shop.DataSql\MMT.Shop.DataSql.csproj" />
+  </ItemGroup>
+
 </Project>

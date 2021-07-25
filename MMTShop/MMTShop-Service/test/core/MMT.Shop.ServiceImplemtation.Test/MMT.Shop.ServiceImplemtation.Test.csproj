@@ -19,4 +19,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\core\MMT.Shop.ServiceImplementation\MMT.Shop.ServiceImplementation.csproj" />
+  </ItemGroup>
+
 </Project>

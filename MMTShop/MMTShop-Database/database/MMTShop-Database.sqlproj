@@ -67,6 +67,7 @@
     <PostDeploy Include="Scripts\InitialData.sql" />
     <Build Include="StoreProcedures\GetFeaturedProducts.sql" />
     <Build Include="StoreProcedures\GetCategories.sql" />
+    <Build Include="StoreProcedures\GetProductByCategory.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="MMTShop-Database.refactorlog" />

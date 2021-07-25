@@ -5,7 +5,8 @@
 	[Sku] NVARCHAR(250) NOT NULL,
 	[Name] NVARCHAR(250) NOT NULL,
 	[Description] TEXT NOT NULL, 
-    [Price] DECIMAL(10,4) NULL, 
-    CONSTRAINT [FK_products_categories] FOREIGN KEY ([CategoryId]) REFERENCES [Categories]([Id]),
+    [Price] DECIMAL(10,4) NOT NULL, 
+    [IsFeatured] BIT NOT NULL, 
+    CONSTRAINT [FK_products_categories] FOREIGN KEY ([CategoryId]) REFERENCES [categories]([Id]),
 
 )

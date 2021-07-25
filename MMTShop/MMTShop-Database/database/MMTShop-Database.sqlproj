@@ -57,10 +57,12 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Scripts" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\categories.sql" />
     <Build Include="Tables\products.sql" />
+    <PostDeploy Include="Scripts\InitialData.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="MMTShop-Database.refactorlog" />

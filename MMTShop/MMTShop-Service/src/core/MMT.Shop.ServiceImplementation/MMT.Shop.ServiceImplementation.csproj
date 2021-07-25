@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\..\data\MMT.Shop.DataInterfaces\MMT.Shop.DataInterfaces.csproj" />
+      <ProjectReference Include="..\MMT.Shop.ServiceInterfaces\MMT.Shop.ServiceInterfaces.csproj" />
     </ItemGroup>
 
     <ItemGroup>

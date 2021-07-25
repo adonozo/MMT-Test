@@ -91,6 +91,19 @@
         "runtime": {
           "bin/placeholder/MMT.Shop.Models.dll": {}
         }
+      },
+      "MMT.Shop.ServiceInterfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MMT.Shop.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MMT.Shop.ServiceInterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MMT.Shop.ServiceInterfaces.dll": {}
+        }
       }
     }
   },
@@ -234,11 +247,17 @@
       "type": "project",
       "path": "../MMT.Shop.Models/MMT.Shop.Models.csproj",
       "msbuildProject": "../MMT.Shop.Models/MMT.Shop.Models.csproj"
+    },
+    "MMT.Shop.ServiceInterfaces/1.0.0": {
+      "type": "project",
+      "path": "../MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj",
+      "msbuildProject": "../MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "MMT.Shop.DataInterfaces >= 1.0.0",
+      "MMT.Shop.ServiceInterfaces >= 1.0.0",
       "Microsoft.Extensions.Logging >= 5.0.0"
     ]
   },
@@ -267,6 +286,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj": {
+              "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj"
+            },
             "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataInterfaces/MMT.Shop.DataInterfaces.csproj": {
               "projectPath": "/Users/alvaro/Projects/mmt-test/MMT-Test/MMTShop/MMTShop-Service/src/data/MMT.Shop.DataInterfaces/MMT.Shop.DataInterfaces.csproj"
             }

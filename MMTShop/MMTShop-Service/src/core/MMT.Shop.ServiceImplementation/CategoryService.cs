@@ -3,10 +3,11 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using MMT.Shop.DataInterfaces;
 using MMT.Shop.Models;
+using MMT.Shop.ServiceInterfaces;
 
 namespace MMT.Shop.ServiceImplementation
 {
-    public class CategoryService
+    public class CategoryService : ICategoryService
     {
         private readonly ILogger<CategoryService> logger;
         private readonly ICategoryData categoryData;

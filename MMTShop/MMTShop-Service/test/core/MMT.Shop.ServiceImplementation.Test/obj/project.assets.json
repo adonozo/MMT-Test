@@ -1973,6 +1973,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "MMT.Shop.DataInterfaces": "1.0.0",
+          "MMT.Shop.ServiceInterfaces": "1.0.0",
           "Microsoft.Extensions.Logging": "5.0.0"
         },
         "compile": {
@@ -1980,6 +1981,19 @@
         },
         "runtime": {
           "bin/placeholder/MMT.Shop.ServiceImplementation.dll": {}
+        }
+      },
+      "MMT.Shop.ServiceInterfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MMT.Shop.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MMT.Shop.ServiceInterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MMT.Shop.ServiceInterfaces.dll": {}
         }
       }
     }
@@ -6813,6 +6827,11 @@
       "type": "project",
       "path": "../../../src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj",
       "msbuildProject": "../../../src/core/MMT.Shop.ServiceImplementation/MMT.Shop.ServiceImplementation.csproj"
+    },
+    "MMT.Shop.ServiceInterfaces/1.0.0": {
+      "type": "project",
+      "path": "../../../src/core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj",
+      "msbuildProject": "../../../src/core/MMT.Shop.ServiceInterfaces/MMT.Shop.ServiceInterfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {

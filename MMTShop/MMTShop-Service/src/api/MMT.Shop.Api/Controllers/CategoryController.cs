@@ -34,5 +34,12 @@ namespace MMT.Shop.Api.Controllers
                 return this.StatusCode(StatusCodes.Status500InternalServerError);
             }
         }
+
+        [HttpGet]
+        [Route("{id}/products")]
+        public async Task<IActionResult> GetProducts([FromBody] int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

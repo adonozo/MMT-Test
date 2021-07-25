@@ -24,7 +24,7 @@ namespace MMT.Shop.Api.Test
             var controller = new ProductController(logger, service);
             
             // Act
-            var result = await controller.GetFeaturedProduct();
+            var result = await controller.GetFeaturedProducts();
 
             // Assert
             result.Should().BeOfType<OkObjectResult>();

@@ -49,5 +49,22 @@ namespace MMT.Shop.Api.Test
             result.Should().BeOfType<StatusCodeResult>();
             ((StatusCodeResult) result).StatusCode.Should().Be(StatusCodes.Status500InternalServerError);
         }
+        
+        [Fact]
+        public async Task GetProducts_OnValidRequest_ShouldReturnStatusOk()
+        {
+            // Arrange
+            var logger = Substitute.For<ILogger<CategoryController>>();
+            var service = Substitute.For<ICategoryService>();
+            service.GetProducts().Returns(Task.FromResult(new List<Product>()));
+            var controller = new CategoryController(logger, service);
+            
+            // Act
+            var result = await controller.GetProducts(1);
+
+            // Assert
+            result.Should().BeOfType<OkObjectResult>();
+            ((OkObjectResult) result).StatusCode.Should().Be(StatusCodes.Status200OK);
+        }
     }
 }
